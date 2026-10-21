@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+#face-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#inputs-container input {
+    padding: 7px;
+}
+
+.btns-geral {
+    border-radius: 6px;
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+}
+
+.btns-geral:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#btn-form {
+    border: none;
+    background-color: #0064e0;
+    color: white;
+    padding: 6px;
+}
+
+#inputs-container input {
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#btn-passwd {
+    border: none;
+    background-color: transparent;
+}
+
+#btn-newAcc {
+    border: 1px solid #0064e0;
+    background-color: white;
+    color: #0064e0;
+}
+
+#img-logo {
+    width: 100px;
+    height: 40px;
+    object-fit: cover;
+}
